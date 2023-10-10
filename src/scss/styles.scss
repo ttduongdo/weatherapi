@@ -1,0 +1,81 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+/* General Styling */
+html {
+  box-sizing: border-box;
+  --primary-dark: black;
+  --primary-light: white;
+  --primary-font: "Fraunces";
+  --text-color: #333;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// * {
+//   border: 1px solid darkgreen;
+// }
+
+body {
+  background-color: #eaeaea;
+  margin: 10px auto;
+  width: 1500px;
+  height: auto;
+  display: block;
+  overflow-x: hidden;
+}
+
+/* Header Styling */
+.searchbox {
+  margin-left: 1200px;
+  width: 200px;
+}
+
+#locate {
+  background-color: transparent;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* Main Styling */
+.city {
+  font-size: 45px;
+  width: 1000px;
+  margin: 0px auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.tempbox {
+  width: 260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.temp {
+  font-size: 140px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.c {
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.extra-info {
+  width: 200px;
+  margin: 15px auto;
+  font-size: 25px;
+}
+
+.extra-info > div {
+  margin-bottom: 5px;
+}
