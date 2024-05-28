@@ -14,7 +14,7 @@ const unitF = "°F";
 
 async function populate() {
   const requestURL =
-    "https://api.weatherapi.com/v1/current.json?key=5b897c4ce27240a0b3305927232909&q=";
+		"https://api.weatherapi.com/v1/current.json?key=b7308189d489477bbbd33123242805&q=";
   const URL = makeURL(requestURL);
   const response = await fetch(URL);
   const data = await response.json();
